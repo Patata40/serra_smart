@@ -476,7 +476,7 @@ def aggiorna_display():
         return
     t_display = ora
     display.fill(0)                                   # schermo tutto nero
-    display.text("SERRA", 0, 0)
+    display.text("SERRA-G39", 0, 0)
     display.text(modalita, 128 - 8 * len(modalita), 0)   # modalita' allineata a destra (8 pixel per carattere)
     if temperatura is None:
         display.text("T: --  U: --", 0, 12)
